@@ -17,9 +17,21 @@ export default function Home() {
         </header>
 
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          <DivisionCard image={mediaContent} alt="Media and Content" />
-          <DivisionCard image={houseLegacyAi} alt="House Legacy AI" />
-          <DivisionCard image={houseLegacy} alt="House Legacy Group" />
+          <DivisionCard
+            image={mediaContent}
+            alt="Media and Content Production"
+            href="/media-content-production"
+          />
+          <DivisionCard
+            image={houseLegacyAi}
+            alt="House Legacy AI"
+            href="/house-legacy-ai"
+          />
+          <DivisionCard
+            image={houseLegacy}
+            alt="Political Strategy and Civic Consulting"
+            href="/political-strategy-civic-consulting"
+          />
         </div>
       </div>
     </main>
