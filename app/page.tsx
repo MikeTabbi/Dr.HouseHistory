@@ -1,4 +1,7 @@
 import { DivisionCard } from "@/components/DivisionCard";
+import houseLegacy from "@/assets/HouseLegacy.png";
+import houseLegacyAi from "@/assets/HouseLegacyAI.png";
+import mediaContent from "@/assets/Media-Content.png";
 
 export default function Home() {
   return (
@@ -14,16 +17,9 @@ export default function Home() {
         </header>
 
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          <DivisionCard
-            title="Media & Content"
-            subtitle="Production"
-            subtitleCaps
-          />
-          <DivisionCard title="House Legacy AI" titleAllCaps />
-          <DivisionCard
-            title="House Legacy Group"
-            subtitle="Political Strategy & Civic Consulting"
-          />
+          <DivisionCard image={mediaContent} alt="Media and Content" />
+          <DivisionCard image={houseLegacyAi} alt="House Legacy AI" />
+          <DivisionCard image={houseLegacy} alt="House Legacy Group" />
         </div>
       </div>
     </main>
