@@ -56,7 +56,7 @@ export function Navbar() {
               className="h-2 w-2 shrink-0 rounded-full bg-neutral-900/80"
               aria-hidden
             />
-            Contact us
+            Schedule Consultation
           </Link>
 
           <button
@@ -105,7 +105,7 @@ export function Navbar() {
                 className="h-2 w-2 shrink-0 rounded-full bg-neutral-900/80"
                 aria-hidden
               />
-              Contact us
+              Schedule Consultation
             </Link>
           </nav>
         </div>

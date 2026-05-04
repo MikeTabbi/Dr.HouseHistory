@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import { BlogSubscribe } from "@/components/BlogSubscribe";
 import { stubBlogPosts } from "@/lib/blog-stubs";
 
 export const metadata: Metadata = {
@@ -23,7 +24,8 @@ export default function BlogIndexPage() {
           Blog &amp; insights
         </h1>
         <p className="mt-4 text-lg text-neutral-600">
-          Preview posts below; full articles will be published here as the blog goes live.
+          The House Legacy Group blog offers essays and insights on history, policy, institutions,
+          media, and artificial intelligence.
         </p>
         <ul className="mt-10 space-y-6">
           {stubBlogPosts.map((post) => (
@@ -43,6 +45,7 @@ export default function BlogIndexPage() {
             </li>
           ))}
         </ul>
+        <BlogSubscribe />
       </div>
     </main>
   );
