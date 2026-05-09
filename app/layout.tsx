@@ -12,11 +12,9 @@ export const metadata: Metadata = {
     title: "House Legacy Group",
     description:
       "Multidisciplinary consulting and media: research, strategy, and historical intelligence across media, civic strategy, and House Legacy AI.",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "House Legacy Group LLC" }],
   },
   twitter: {
     card: "summary_large_image",
-    images: ["/og-image.png"],
   },
 };
 
